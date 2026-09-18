@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("2input_electricity_bill_perdiction_model.pkl")
+model = joblib.load("2input_electricity_bill_prediction_model.pkl")
 poly = joblib.load("poly.pkl")
 
 st.title("Electrical_Bill AC Price Prediction")
